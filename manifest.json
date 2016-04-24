@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "アニメ名言",
+    "description": "アニメの名言を表示するChrome extension",
+    "version": "0.1",
+    "permissions": [
+        "tabs"
+    ],
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "content_scripts": [{
+        "matches": ["http://www.google.com/*"],
+        "css": ["css/style.css"],
+        "js": ["js/javascript.js", "js/jquery-2.2.3.min.js"]
+    }],
+    "web_accessible_resources": ["css/style.css"]
+}
