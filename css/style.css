@@ -1,11 +1,6 @@
-p.sample {
-    color: #000000;
-    background-color: #99cc00
-}
-
 #slide {
     width: 640px;
-    height: 300px;
+    height: 500px;
     margin: 0 auto;
     position: relative;
 }
@@ -13,4 +8,12 @@ p.sample {
     position: absolute;
     left: 0;
     top: 0;
+    font-size: 40px;
+}
+
+/*フォント*/
+
+@import url(//fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
+body {
+    font-family: "Roboto Slab", Garamond, "Times New Roman", "游明朝", "Yu Mincho", "游明朝体", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "HiraMinProN-W3", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif;
 }
