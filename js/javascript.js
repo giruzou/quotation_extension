@@ -8,9 +8,9 @@ style.href = chrome.extension.getURL('css/style.css');
 $(function() {
     // 設定
     var $width = 640; // 横幅
-    var $height = 300; // 高さ
-    var $interval = 3000; // 切り替わりの間隔（ミリ秒）
-    var $fade_speed = 1000; // フェード処理の早さ（ミリ秒）
+    var $height = 600; // 高さ
+    var $interval = 60000; // 切り替わりの間隔（ミリ秒）
+    var $fade_speed = 5000; // フェード処理の早さ（ミリ秒）
     $("#slide ul li").css({
         "position": "relative",
         "overflow": "hidden",
