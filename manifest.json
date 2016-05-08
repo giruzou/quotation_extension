@@ -1,8 +1,14 @@
 {
     "manifest_version": 2,
     "name": "アニメ名言",
+    "short_name": "アニ言",
     "description": "アニメの名言を表示するChrome extension",
-    "version": "0.1",
+    "version": "1.0",
+    "icons": {
+        "16": "icon/icon16.png",
+        "48": "icon/icon48.png",
+        "128": "icon/icon128.png"
+    },
     "permissions": [
         "tabs"
     ],
